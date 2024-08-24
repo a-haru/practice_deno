@@ -3,7 +3,7 @@
 const args = [...Deno.args];
 
 if (args.length === 0) {
-    console.log("引数なし");
+    console.error("引数なし");
     Deno.exit(1);
 }
 
