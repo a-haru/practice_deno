@@ -63,3 +63,12 @@ deno add *****
 ```
 コマンドを実行すると [deno.json](../deno.json) に追加したパッケージの情報が記録される。
 Denoでは [JSR](https://jsr.io/) からパッケージをインストールする。
+
+## テストを実行する
+
+[テストコードを実装し、実行する](./04//01.test.ts)
+
+![実行結果](./04/01.png)
+
+[参考](https://docs.deno.com/runtime/fundamentals/testing/)
+ファイル名は ``
