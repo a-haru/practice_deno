@@ -71,4 +71,4 @@ Denoでは [JSR](https://jsr.io/) からパッケージをインストールす�
 ![実行結果](./04/01.png)
 
 [参考](https://docs.deno.com/runtime/fundamentals/testing/)
-ファイル名は ``
+`deno test` を実行した場合、実行ディレクトリ以下にあるファイル名が `{*_,*.,}test.{ts, tsx, mts, js, mjs, jsx}` にマッチするものを対象にする。
